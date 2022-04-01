@@ -1,0 +1,170 @@
+:root {
+    background-color: khaki;
+}
+
+body {
+    width: 95%;
+    border: 1px solid blue;
+    margin: 0 auto;
+    margin-top: 10px;
+    background-color:azure;
+}
+
+.logo {
+    height:150px;
+    width: 150px;
+}
+
+form {
+    width:400px;
+    margin: auto;
+    margin-top: 250px;
+    display: inline;
+}
+
+input {
+    padding:4px 10px;
+    border:0;
+    font-size:14px;
+}
+
+.search {
+    width: 30%;
+    vertical-align: top;
+    border: 1px solid black
+}
+
+.submit {
+    width: 70px;
+    background-color: #1c87c9;
+    color:#ffffff;
+    vertical-align: top;
+    margin-left: 2px;
+}
+
+.first-heading {
+    text-align: center;
+    margin-bottom: 50px;
+    font-family: monospace;
+}
+
+.navigation {
+    padding: 4px;
+    text-align: center;
+    margin: 0 auto;
+    position: absolute;
+    right: 25px;
+    top: 12px;
+    margin-bottom: 80px;
+}
+
+.navigation li {
+    margin-right: 9px;  
+    border: 1px solid #000; 
+    padding: 3px; 
+    display: inline;
+    border-radius: 6%;
+    background-color: aqua;
+}
+
+.customer-choise {
+    position: absolute;
+    right: 40px;
+    top: 70px;
+}
+
+.book-1, .book-2, .book-3 {
+    display: inline-block;
+    width: 372px;
+    height: 350px;
+    border: 2px solid black;
+    text-align: center;
+    margin-top: 15px;
+    background-color: aqua;
+}
+
+.aside-nav {
+    position: absolute;
+    border: 1px solid black;
+    right: 42px;
+    top: 260px;
+    width: 200px;
+}
+
+.nobel-article {
+    position: absolute;
+    border: 1px solid black;
+    right: 43px;
+    top: 340px;
+    width: 240px;
+    height: 290px;
+}
+
+.nobel-article h2 {
+    text-align: center;
+    font-family: monospace;
+}
+
+.new-items {
+    text-align: center;
+    font-family: monospace;
+}
+
+.book-4, .book-5, .book-6 {
+    display: inline-block;
+    width: 372px;
+    height: 350px;
+    border: 2px solid black;
+    text-align: center;
+    margin-top: 15px;
+    background-color: aqua;
+}
+
+.aside-ad {
+    position: absolute;
+    border: 1px solid black;
+    right: 43px;
+    top: 710px;
+    width: 240px;
+    height: 350px;
+    text-align: center;
+    font-family: monospace;
+    
+}
+
+.aside-ad h2 {
+    font-family: monospace;
+}
+
+hr {
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.footer {
+    background-color: #D2D2D4;
+    padding: 0;
+    margin: 0;
+    height: 150px;
+}
+
+.footer h2 {
+    margin: 0;
+    text-align: center;
+    font-family: monospace;
+}
+
+.footer-nav {
+    margin: 0 auto;
+    position: relative;
+}
+
+.footer-nav li {
+    margin-right: 9px;  
+    border: 1px solid #000; 
+    padding: 3px; 
+    display: inline;
+    border-radius: 6%;
+    background-color: aqua;
+}
+    
