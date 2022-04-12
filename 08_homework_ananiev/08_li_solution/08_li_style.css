@@ -1,0 +1,125 @@
+* {
+    transition: all 0.1s ease-in;
+    font-family: "Roboto Light", monospace;
+}
+
+:root {
+    --color-body: #3b3f45;
+    --color-header: #4a4f56;
+    --color-light-purp: #88839e;
+    --color-dark-purp: #7a7593;
+    --color-font: #ff8984;
+    --color-hover-purp: #625e77;
+    --color-white: white;
+}
+
+body {
+    background-color: var(--color-body);
+    margin: 0;
+}
+
+.header {
+    background-color: var(--color-header);
+    height: 100px;
+    text-align: center;
+    color: var(--color-font);
+}
+
+.header h1 {
+    margin: 0;
+    padding-top: 15px;
+    font-weight: 700;
+    font-size: 28px;
+}
+
+.header h2 {
+    margin: 0;
+    padding-top: 10px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+li {
+    list-style-type: none;
+    margin: 0;
+    height: 80px;
+    padding-left: 20px;
+}
+
+.li-1:hover,
+.li-2:hover,
+.li-3:hover,
+.li-4:hover,
+.li-5:hover,
+.li-6:hover {
+    background-color: var(--color-hover-purp);
+    border-top: 3px solid white;
+    border-bottom: 3px solid white;
+    cursor: pointer;
+}
+
+.li-1:active,
+.li-2:active,
+.li-3:active,
+.li-4:active,
+.li-5:active,
+.li-6:active {
+    background-color: orangered;
+}
+
+label {
+    cursor: pointer;
+}
+
+ul li input:checked + label {
+    text-decoration: line-through;
+}
+
+.main-block {
+    width: 1300px;
+    height: 480px;
+    margin: 40px auto 0;
+    font-weight: 400;
+    font-size: 24px;
+    color: var(--color-white);
+}
+
+input {
+    transform: scale(1.8);
+    opacity: 0.9;
+    cursor: pointer;
+    margin-top: 33px;
+}
+
+span {
+    font-weight: 400;
+    font-size: 14px;
+}
+
+li:nth-child(odd) {
+    background-color: var(--color-light-purp);
+}
+
+li:nth-child(even) {
+    background-color: var(--color-dark-purp);
+}
+
+#footer {
+    width: 1000px;
+    height: 70px;
+    background-color: var(--color-header);
+    margin: 50px auto;
+}
+
+h2:only-child {
+    margin: 0 auto;
+    padding-top: 22px;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 400;
+    color: var(--color-font);
+}
+
+#footer h2::after {
+    content: ":)";
+}
